@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B06FE51D3C748300F9CA31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B06FE41D3C748300F9CA31 /* main.m */; };
+		81B06FE81D3C748300F9CA31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B06FE71D3C748300F9CA31 /* AppDelegate.m */; };
+		81B06FEB1D3C748300F9CA31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B06FEA1D3C748300F9CA31 /* ViewController.m */; };
+		81B06FEE1D3C748300F9CA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B06FEC1D3C748300F9CA31 /* Main.storyboard */; };
+		81B06FF01D3C748300F9CA31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B06FEF1D3C748300F9CA31 /* Assets.xcassets */; };
+		81B06FF31D3C748300F9CA31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B06FF11D3C748300F9CA31 /* LaunchScreen.storyboard */; };
+		81B06FFE1D3C748300F9CA31 /* PQVoiceInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B06FFD1D3C748300F9CA31 /* PQVoiceInputViewTests.m */; };
+		81B070091D3C748300F9CA31 /* PQVoiceInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B070081D3C748300F9CA31 /* PQVoiceInputViewUITests.m */; };
+		81B0702A1D3C74C300F9CA31 /* PQCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B070181D3C74C300F9CA31 /* PQCircleAnimationView.m */; };
+		81B0702B1D3C74C300F9CA31 /* PQTopArcAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B0701A1D3C74C300F9CA31 /* PQTopArcAnimationView.m */; };
+		81B0702C1D3C74C300F9CA31 /* PQVoiceBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B0701D1D3C74C300F9CA31 /* PQVoiceBottomView.m */; };
+		81B0702D1D3C74C300F9CA31 /* PQVoiceCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B0701F1D3C74C300F9CA31 /* PQVoiceCircleView.m */; };
+		81B0702E1D3C74C300F9CA31 /* PQVoiceInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B070211D3C74C300F9CA31 /* PQVoiceInputView.m */; };
+		81B0702F1D3C74C300F9CA31 /* PQVoiceTopArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B070231D3C74C300F9CA31 /* PQVoiceTopArcView.m */; };
+		81B070301D3C74C300F9CA31 /* PQVoiceTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B070251D3C74C300F9CA31 /* PQVoiceTopView.m */; };
+		81B070311D3C74C300F9CA31 /* PQVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B070271D3C74C300F9CA31 /* PQVoiceView.m */; };
+		81B070321D3C74C300F9CA31 /* UIView+PQViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B070291D3C74C300F9CA31 /* UIView+PQViewExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B06FFA1D3C748300F9CA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B06FD81D3C748300F9CA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B06FDF1D3C748300F9CA31;
+			remoteInfo = PQVoiceInputView;
+		};
+		81B070051D3C748300F9CA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B06FD81D3C748300F9CA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B06FDF1D3C748300F9CA31;
+			remoteInfo = PQVoiceInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B06FE01D3C748300F9CA31 /* PQVoiceInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PQVoiceInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B06FE41D3C748300F9CA31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81B06FE61D3C748300F9CA31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81B06FE71D3C748300F9CA31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81B06FE91D3C748300F9CA31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81B06FEA1D3C748300F9CA31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81B06FED1D3C748300F9CA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B06FEF1D3C748300F9CA31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B06FF21D3C748300F9CA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B06FF41D3C748300F9CA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B06FF91D3C748300F9CA31 /* PQVoiceInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQVoiceInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B06FFD1D3C748300F9CA31 /* PQVoiceInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQVoiceInputViewTests.m; sourceTree = "<group>"; };
+		81B06FFF1D3C748300F9CA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B070041D3C748300F9CA31 /* PQVoiceInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PQVoiceInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B070081D3C748300F9CA31 /* PQVoiceInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PQVoiceInputViewUITests.m; sourceTree = "<group>"; };
+		81B0700A1D3C748300F9CA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B070171D3C74C300F9CA31 /* PQCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQCircleAnimationView.h; path = VoiceInput/PQCircleAnimationView.h; sourceTree = "<group>"; };
+		81B070181D3C74C300F9CA31 /* PQCircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQCircleAnimationView.m; path = VoiceInput/PQCircleAnimationView.m; sourceTree = "<group>"; };
+		81B070191D3C74C300F9CA31 /* PQTopArcAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQTopArcAnimationView.h; path = VoiceInput/PQTopArcAnimationView.h; sourceTree = "<group>"; };
+		81B0701A1D3C74C300F9CA31 /* PQTopArcAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQTopArcAnimationView.m; path = VoiceInput/PQTopArcAnimationView.m; sourceTree = "<group>"; };
+		81B0701B1D3C74C300F9CA31 /* PQVoiceInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQVoiceInput.h; path = VoiceInput/PQVoiceInput.h; sourceTree = "<group>"; };
+		81B0701C1D3C74C300F9CA31 /* PQVoiceBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQVoiceBottomView.h; path = VoiceInput/PQVoiceBottomView.h; sourceTree = "<group>"; };
+		81B0701D1D3C74C300F9CA31 /* PQVoiceBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQVoiceBottomView.m; path = VoiceInput/PQVoiceBottomView.m; sourceTree = "<group>"; };
+		81B0701E1D3C74C300F9CA31 /* PQVoiceCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQVoiceCircleView.h; path = VoiceInput/PQVoiceCircleView.h; sourceTree = "<group>"; };
+		81B0701F1D3C74C300F9CA31 /* PQVoiceCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQVoiceCircleView.m; path = VoiceInput/PQVoiceCircleView.m; sourceTree = "<group>"; };
+		81B070201D3C74C300F9CA31 /* PQVoiceInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQVoiceInputView.h; path = VoiceInput/PQVoiceInputView.h; sourceTree = "<group>"; };
+		81B070211D3C74C300F9CA31 /* PQVoiceInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQVoiceInputView.m; path = VoiceInput/PQVoiceInputView.m; sourceTree = "<group>"; };
+		81B070221D3C74C300F9CA31 /* PQVoiceTopArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQVoiceTopArcView.h; path = VoiceInput/PQVoiceTopArcView.h; sourceTree = "<group>"; };
+		81B070231D3C74C300F9CA31 /* PQVoiceTopArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQVoiceTopArcView.m; path = VoiceInput/PQVoiceTopArcView.m; sourceTree = "<group>"; };
+		81B070241D3C74C300F9CA31 /* PQVoiceTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQVoiceTopView.h; path = VoiceInput/PQVoiceTopView.h; sourceTree = "<group>"; };
+		81B070251D3C74C300F9CA31 /* PQVoiceTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQVoiceTopView.m; path = VoiceInput/PQVoiceTopView.m; sourceTree = "<group>"; };
+		81B070261D3C74C300F9CA31 /* PQVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQVoiceView.h; path = VoiceInput/PQVoiceView.h; sourceTree = "<group>"; };
+		81B070271D3C74C300F9CA31 /* PQVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQVoiceView.m; path = VoiceInput/PQVoiceView.m; sourceTree = "<group>"; };
+		81B070281D3C74C300F9CA31 /* UIView+PQViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+PQViewExtension.h"; path = "VoiceInput/UIView+PQViewExtension.h"; sourceTree = "<group>"; };
+		81B070291D3C74C300F9CA31 /* UIView+PQViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+PQViewExtension.m"; path = "VoiceInput/UIView+PQViewExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B06FDD1D3C748300F9CA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B06FF61D3C748300F9CA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B070011D3C748300F9CA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B06FD71D3C748300F9CA31 = {
+			isa = PBXGroup;
+			children = (
+				81B070161D3C74B600F9CA31 /* VoiceInput */,
+				81B06FE21D3C748300F9CA31 /* PQVoiceInputView */,
+				81B06FFC1D3C748300F9CA31 /* PQVoiceInputViewTests */,
+				81B070071D3C748300F9CA31 /* PQVoiceInputViewUITests */,
+				81B06FE11D3C748300F9CA31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B06FE11D3C748300F9CA31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B06FE01D3C748300F9CA31 /* PQVoiceInputView.app */,
+				81B06FF91D3C748300F9CA31 /* PQVoiceInputViewTests.xctest */,
+				81B070041D3C748300F9CA31 /* PQVoiceInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B06FE21D3C748300F9CA31 /* PQVoiceInputView */ = {
+			isa = PBXGroup;
+			children = (
+				81B06FE61D3C748300F9CA31 /* AppDelegate.h */,
+				81B06FE71D3C748300F9CA31 /* AppDelegate.m */,
+				81B06FE91D3C748300F9CA31 /* ViewController.h */,
+				81B06FEA1D3C748300F9CA31 /* ViewController.m */,
+				81B06FEC1D3C748300F9CA31 /* Main.storyboard */,
+				81B06FEF1D3C748300F9CA31 /* Assets.xcassets */,
+				81B06FF11D3C748300F9CA31 /* LaunchScreen.storyboard */,
+				81B06FF41D3C748300F9CA31 /* Info.plist */,
+				81B06FE31D3C748300F9CA31 /* Supporting Files */,
+			);
+			path = PQVoiceInputView;
+			sourceTree = "<group>";
+		};
+		81B06FE31D3C748300F9CA31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B06FE41D3C748300F9CA31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81B06FFC1D3C748300F9CA31 /* PQVoiceInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B06FFD1D3C748300F9CA31 /* PQVoiceInputViewTests.m */,
+				81B06FFF1D3C748300F9CA31 /* Info.plist */,
+			);
+			path = PQVoiceInputViewTests;
+			sourceTree = "<group>";
+		};
+		81B070071D3C748300F9CA31 /* PQVoiceInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81B070081D3C748300F9CA31 /* PQVoiceInputViewUITests.m */,
+				81B0700A1D3C748300F9CA31 /* Info.plist */,
+			);
+			path = PQVoiceInputViewUITests;
+			sourceTree = "<group>";
+		};
+		81B070161D3C74B600F9CA31 /* VoiceInput */ = {
+			isa = PBXGroup;
+			children = (
+				81B070171D3C74C300F9CA31 /* PQCircleAnimationView.h */,
+				81B070181D3C74C300F9CA31 /* PQCircleAnimationView.m */,
+				81B070191D3C74C300F9CA31 /* PQTopArcAnimationView.h */,
+				81B0701A1D3C74C300F9CA31 /* PQTopArcAnimationView.m */,
+				81B0701B1D3C74C300F9CA31 /* PQVoiceInput.h */,
+				81B0701C1D3C74C300F9CA31 /* PQVoiceBottomView.h */,
+				81B0701D1D3C74C300F9CA31 /* PQVoiceBottomView.m */,
+				81B0701E1D3C74C300F9CA31 /* PQVoiceCircleView.h */,
+				81B0701F1D3C74C300F9CA31 /* PQVoiceCircleView.m */,
+				81B070201D3C74C300F9CA31 /* PQVoiceInputView.h */,
+				81B070211D3C74C300F9CA31 /* PQVoiceInputView.m */,
+				81B070221D3C74C300F9CA31 /* PQVoiceTopArcView.h */,
+				81B070231D3C74C300F9CA31 /* PQVoiceTopArcView.m */,
+				81B070241D3C74C300F9CA31 /* PQVoiceTopView.h */,
+				81B070251D3C74C300F9CA31 /* PQVoiceTopView.m */,
+				81B070261D3C74C300F9CA31 /* PQVoiceView.h */,
+				81B070271D3C74C300F9CA31 /* PQVoiceView.m */,
+				81B070281D3C74C300F9CA31 /* UIView+PQViewExtension.h */,
+				81B070291D3C74C300F9CA31 /* UIView+PQViewExtension.m */,
+			);
+			name = VoiceInput;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B06FDF1D3C748300F9CA31 /* PQVoiceInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B0700D1D3C748300F9CA31 /* Build configuration list for PBXNativeTarget "PQVoiceInputView" */;
+			buildPhases = (
+				81B06FDC1D3C748300F9CA31 /* Sources */,
+				81B06FDD1D3C748300F9CA31 /* Frameworks */,
+				81B06FDE1D3C748300F9CA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PQVoiceInputView;
+			productName = PQVoiceInputView;
+			productReference = 81B06FE01D3C748300F9CA31 /* PQVoiceInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B06FF81D3C748300F9CA31 /* PQVoiceInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B070101D3C748300F9CA31 /* Build configuration list for PBXNativeTarget "PQVoiceInputViewTests" */;
+			buildPhases = (
+				81B06FF51D3C748300F9CA31 /* Sources */,
+				81B06FF61D3C748300F9CA31 /* Frameworks */,
+				81B06FF71D3C748300F9CA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B06FFB1D3C748300F9CA31 /* PBXTargetDependency */,
+			);
+			name = PQVoiceInputViewTests;
+			productName = PQVoiceInputViewTests;
+			productReference = 81B06FF91D3C748300F9CA31 /* PQVoiceInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81B070031D3C748300F9CA31 /* PQVoiceInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B070131D3C748300F9CA31 /* Build configuration list for PBXNativeTarget "PQVoiceInputViewUITests" */;
+			buildPhases = (
+				81B070001D3C748300F9CA31 /* Sources */,
+				81B070011D3C748300F9CA31 /* Frameworks */,
+				81B070021D3C748300F9CA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B070061D3C748300F9CA31 /* PBXTargetDependency */,
+			);
+			name = PQVoiceInputViewUITests;
+			productName = PQVoiceInputViewUITests;
+			productReference = 81B070041D3C748300F9CA31 /* PQVoiceInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B06FD81D3C748300F9CA31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PQ;
+				TargetAttributes = {
+					81B06FDF1D3C748300F9CA31 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					81B06FF81D3C748300F9CA31 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 81B06FDF1D3C748300F9CA31;
+					};
+					81B070031D3C748300F9CA31 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 81B06FDF1D3C748300F9CA31;
+					};
+				};
+			};
+			buildConfigurationList = 81B06FDB1D3C748300F9CA31 /* Build configuration list for PBXProject "PQVoiceInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B06FD71D3C748300F9CA31;
+			productRefGroup = 81B06FE11D3C748300F9CA31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B06FDF1D3C748300F9CA31 /* PQVoiceInputView */,
+				81B06FF81D3C748300F9CA31 /* PQVoiceInputViewTests */,
+				81B070031D3C748300F9CA31 /* PQVoiceInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B06FDE1D3C748300F9CA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B06FF31D3C748300F9CA31 /* LaunchScreen.storyboard in Resources */,
+				81B06FF01D3C748300F9CA31 /* Assets.xcassets in Resources */,
+				81B06FEE1D3C748300F9CA31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B06FF71D3C748300F9CA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B070021D3C748300F9CA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B06FDC1D3C748300F9CA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B0702B1D3C74C300F9CA31 /* PQTopArcAnimationView.m in Sources */,
+				81B0702A1D3C74C300F9CA31 /* PQCircleAnimationView.m in Sources */,
+				81B0702D1D3C74C300F9CA31 /* PQVoiceCircleView.m in Sources */,
+				81B06FEB1D3C748300F9CA31 /* ViewController.m in Sources */,
+				81B070321D3C74C300F9CA31 /* UIView+PQViewExtension.m in Sources */,
+				81B070301D3C74C300F9CA31 /* PQVoiceTopView.m in Sources */,
+				81B0702F1D3C74C300F9CA31 /* PQVoiceTopArcView.m in Sources */,
+				81B070311D3C74C300F9CA31 /* PQVoiceView.m in Sources */,
+				81B06FE81D3C748300F9CA31 /* AppDelegate.m in Sources */,
+				81B06FE51D3C748300F9CA31 /* main.m in Sources */,
+				81B0702C1D3C74C300F9CA31 /* PQVoiceBottomView.m in Sources */,
+				81B0702E1D3C74C300F9CA31 /* PQVoiceInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B06FF51D3C748300F9CA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B06FFE1D3C748300F9CA31 /* PQVoiceInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B070001D3C748300F9CA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B070091D3C748300F9CA31 /* PQVoiceInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B06FFB1D3C748300F9CA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B06FDF1D3C748300F9CA31 /* PQVoiceInputView */;
+			targetProxy = 81B06FFA1D3C748300F9CA31 /* PBXContainerItemProxy */;
+		};
+		81B070061D3C748300F9CA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B06FDF1D3C748300F9CA31 /* PQVoiceInputView */;
+			targetProxy = 81B070051D3C748300F9CA31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B06FEC1D3C748300F9CA31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B06FED1D3C748300F9CA31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B06FF11D3C748300F9CA31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B06FF21D3C748300F9CA31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B0700B1D3C748300F9CA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B0700C1D3C748300F9CA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B0700E1D3C748300F9CA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PQVoiceInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kct.PQVoiceInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81B0700F1D3C748300F9CA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PQVoiceInputView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kct.PQVoiceInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81B070111D3C748300F9CA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PQVoiceInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kct.PQVoiceInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PQVoiceInputView.app/PQVoiceInputView";
+			};
+			name = Debug;
+		};
+		81B070121D3C748300F9CA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PQVoiceInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kct.PQVoiceInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PQVoiceInputView.app/PQVoiceInputView";
+			};
+			name = Release;
+		};
+		81B070141D3C748300F9CA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PQVoiceInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kct.PQVoiceInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PQVoiceInputView;
+			};
+			name = Debug;
+		};
+		81B070151D3C748300F9CA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PQVoiceInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kct.PQVoiceInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PQVoiceInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B06FDB1D3C748300F9CA31 /* Build configuration list for PBXProject "PQVoiceInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B0700B1D3C748300F9CA31 /* Debug */,
+				81B0700C1D3C748300F9CA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B0700D1D3C748300F9CA31 /* Build configuration list for PBXNativeTarget "PQVoiceInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B0700E1D3C748300F9CA31 /* Debug */,
+				81B0700F1D3C748300F9CA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B070101D3C748300F9CA31 /* Build configuration list for PBXNativeTarget "PQVoiceInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B070111D3C748300F9CA31 /* Debug */,
+				81B070121D3C748300F9CA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B070131D3C748300F9CA31 /* Build configuration list for PBXNativeTarget "PQVoiceInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B070141D3C748300F9CA31 /* Debug */,
+				81B070151D3C748300F9CA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B06FD81D3C748300F9CA31 /* Project object */;
+}
